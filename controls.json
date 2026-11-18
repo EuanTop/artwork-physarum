@@ -1,0 +1,193 @@
+[
+  {
+    "id": "growing",
+    "label": "持续生长",
+    "type": "boolean",
+    "default": false,
+    "group": "生长",
+    "role": "art"
+  },
+  {
+    "id": "sensorDistance",
+    "label": "感知距离",
+    "type": "number",
+    "default": 4,
+    "group": "生长",
+    "role": "art",
+    "min": 2,
+    "max": 40,
+    "step": 0.5
+  },
+  {
+    "id": "sensorAngle",
+    "label": "感知角度",
+    "type": "number",
+    "default": 60,
+    "group": "生长",
+    "role": "art",
+    "min": 5,
+    "max": 90,
+    "step": 1
+  },
+  {
+    "id": "turnAngle",
+    "label": "转向角度",
+    "type": "number",
+    "default": 45,
+    "group": "生长",
+    "role": "art",
+    "min": 2,
+    "max": 90,
+    "step": 1
+  },
+  {
+    "id": "stepSize",
+    "label": "移动步长",
+    "type": "number",
+    "default": 1.2,
+    "group": "生长",
+    "role": "art",
+    "min": 0.2,
+    "max": 3,
+    "step": 0.05
+  },
+  {
+    "id": "deposit",
+    "label": "痕迹沉积",
+    "type": "number",
+    "default": 0.04,
+    "group": "生长",
+    "role": "art",
+    "min": 0.01,
+    "max": 0.3,
+    "step": 0.005
+  },
+  {
+    "id": "decay",
+    "label": "痕迹保留",
+    "type": "number",
+    "default": 0.83,
+    "group": "生长",
+    "role": "art",
+    "min": 0.75,
+    "max": 0.995,
+    "step": 0.005
+  },
+  {
+    "id": "response",
+    "label": "密度反馈",
+    "type": "number",
+    "default": 1.05,
+    "group": "组织",
+    "role": "art",
+    "min": 0,
+    "max": 2,
+    "step": 0.05
+  },
+  {
+    "id": "foodInfluence",
+    "label": "养分引导",
+    "type": "number",
+    "default": 0.35,
+    "group": "组织",
+    "role": "data",
+    "min": 0,
+    "max": 2,
+    "step": 0.05
+  },
+  {
+    "id": "contrast",
+    "label": "纹理对比",
+    "type": "number",
+    "default": 1.4,
+    "group": "画面",
+    "role": "art",
+    "min": 0.3,
+    "max": 3,
+    "step": 0.05
+  },
+  {
+    "id": "zoom",
+    "label": "观察尺度",
+    "type": "number",
+    "default": 1.04,
+    "group": "画面",
+    "role": "art",
+    "min": 0.75,
+    "max": 3,
+    "step": 0.01
+  },
+  {
+    "id": "speed",
+    "label": "演化速度",
+    "type": "number",
+    "default": 2,
+    "group": "生长",
+    "role": "art",
+    "min": 1,
+    "max": 6,
+    "step": 1
+  },
+  {
+    "id": "regrow",
+    "label": "重新生长次数",
+    "type": "number",
+    "default": 0,
+    "group": "生长",
+    "role": "runtime",
+    "min": 0,
+    "max": 100000,
+    "step": 1
+  },
+  {
+    "id": "showSources",
+    "label": "显示养分点",
+    "type": "boolean",
+    "default": false,
+    "group": "材料",
+    "role": "data"
+  },
+  {
+    "id": "renewal",
+    "label": "粒子更新",
+    "type": "number",
+    "default": 0.003,
+    "min": 0,
+    "max": 0.02,
+    "step": 0.0005,
+    "group": "组织"
+  },
+  {
+    "id": "reveal",
+    "label": "组织展开",
+    "type": "number",
+    "default": 0,
+    "min": 0,
+    "max": 1,
+    "step": 0.01,
+    "group": "画面",
+    "role": "art"
+  },
+  {
+    "id": "observationTime",
+    "label": "观测时刻",
+    "type": "number",
+    "default": 0,
+    "min": 0,
+    "max": 1,
+    "step": 0.01,
+    "group": "材料",
+    "role": "data"
+  },
+  {
+    "id": "observationInfluence",
+    "label": "观测场影响",
+    "type": "number",
+    "default": 0.65,
+    "min": 0,
+    "max": 2,
+    "step": 0.05,
+    "group": "组织",
+    "role": "data"
+  }
+]
